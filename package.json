@@ -28,6 +28,10 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quarkend/backend"
+  },
   "author": "",
   "license": "ISC",
   "description": ""
