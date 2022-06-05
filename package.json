@@ -5,7 +5,7 @@
     "cors": "^2.8.5",
     "date-fns": "^2.27.0",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
+    "express": "^4.18.1",
     "express-fileupload": "^1.2.1",
     "express-handlebars": "^5.3.4",
     "hbs": "^4.1.2",
@@ -27,6 +27,10 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quarkend/backend"
   },
   "author": "",
   "license": "ISC",
