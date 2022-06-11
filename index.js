@@ -20,20 +20,20 @@ const errorHandler = (error) => {
     throw error;
   }
   const address = server.address();
-  const bind =
-    typeof address === "string" ? "pipe " + address : "port: " + port;
-  switch (error.code) {
-    case "EACCES":
-      console.error(bind + " requires privileges.");
-      process.exit(1);
-      break;
-    case "EADDRINUSE":
-      console.error(bind + " is alread in use.");
-      process.exit(1);
-      break;
-    default:
-      throw error;
-  }
+  // const bind =
+  //   typeof address === "string" ? "pipe " + address : "port: " + port;
+  // switch (error.code) {
+  //   case "EACCES":
+  //     console.error(bind + " requires privileges.");
+  //     process.exit(1);
+  //     break;
+  //   case "EADDRINUSE":
+  //     console.error(bind + " is alread in use.");
+  //     process.exit(1);
+  //     break;
+  //   default:
+  //     throw error;
+  // }
 };
 
 const server = http.createServer(app);
